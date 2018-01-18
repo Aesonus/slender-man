@@ -1,0 +1,11 @@
+<?php
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+//Define environment constants here
+
+define('ENV_APP_MODE', 'development');
+define('ENV_APP_ROOT', __DIR__ . '/../..');

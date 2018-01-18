@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='http://mordor/SlenderMan/public/js/csrf.js'></script>
+    </head>
+    <body onload="csrf('{{ csrf.name.key }}','{{ csrf.name.value }}','{{ csrf.token.key }}','{{ csrf.token.value }}')">
+        <header>
+            {% block header %}
+                <h1>Default</h1>
+            {% endblock %}
+        </header>
+    </body>
+</html>
