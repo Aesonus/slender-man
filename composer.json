@@ -7,7 +7,7 @@
     
     "autoload": {
         "psr-4": {
-            "Narya\\": "narya"
+            "Aesonus\\": "src"
         }
     }
 }

@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-namespace Narya\SlenderMan\Middleware;
+namespace Aesonus\SlenderMan\Middleware;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Message\ResponseInterface as Response;
 use Slim\Views\Twig;

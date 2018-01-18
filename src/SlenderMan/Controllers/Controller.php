@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-namespace Narya\Controllers\SlenderMan;
+namespace Aesonus\Controllers\SlenderMan;
 
 use Interop\Container\ContainerInterface as Container;
 use Slim\Views\Twig;

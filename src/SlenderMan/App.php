@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-namespace Narya\SlenderMan;
+namespace Aesonus\SlenderMan;
 
 /**
  * Description of App
