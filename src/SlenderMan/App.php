@@ -10,7 +10,7 @@ namespace Aesonus\SlenderMan;
 /**
  * Description of App
  *
- * @author Narya
+ * @author Aesonus
  */
 class App extends \DI\Bridge\Slim\App
 {

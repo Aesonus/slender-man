@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-use Narya\SlenderMan\App;
+use Aesonus\SlenderMan\App;
 
 session_cache_limiter(false);
 session_start();

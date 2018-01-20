@@ -14,7 +14,7 @@ use Slim\Csrf\Guard;
 /**
  * Description of Csrf
  *
- * @author Narya
+ * @author Aesonus
  */
 class CsrfView extends Middleware
 {

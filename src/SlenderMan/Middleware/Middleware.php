@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface as Response;
 /**
  * Description of Middleware
  *
- * @author Narya
+ * @author Aesonus
  */
 abstract class Middleware
 {

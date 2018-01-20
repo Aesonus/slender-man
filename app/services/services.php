@@ -8,7 +8,6 @@
 use Interop\Container\ContainerInterface as Container;
 use Slim\Views\Twig;
 use Slim\Views\TwigExtension;
-use Slim\Csrf\Guard as Guard;
 
 return [
     Twig::class => function (Container $c) {
@@ -20,13 +19,8 @@ return [
         $view->addExtension(new TwigExtension(
             $c->get('router'), $c->get('request')->getUri()
         ));
+        $view->addExtension(new Aesonus\SlenderMan\TwigExtension());
 
         return $view;
     },
-    Guard::class => function () {
-        return new Guard();
-    },
-    Middleware\CsrfView::class => function (Container $c) {
-        return new Middleware\CsrfView($c);
-    }
 ];

@@ -9,5 +9,5 @@
 
 
 //Add the middleware needed for all apps
-$app->add([Narya\SlenderMan\Middleware\CsrfView::class,'guard']);
+$app->add([Aesonus\SlenderMan\Middleware\CsrfView::class,'guard']);
 $app->add([\Slim\Csrf\Guard::class,'__invoke']);
