@@ -20,6 +20,7 @@ return [
             $c->get('router'), $c->get('request')->getUri()
         ));
         $view->addExtension(new Aesonus\SlenderMan\TwigExtension());
+        $view->getEnvironment()->addGlobal('site_root', $c->get('site_root'));
 
         return $view;
     },
